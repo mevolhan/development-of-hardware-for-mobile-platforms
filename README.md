@@ -1,39 +1,39 @@
 # StudyMate
 
-`StudyMate` is a compact Android app concept for students: tasks, deadlines, daily focus, and simple progress tracking.
+`StudyMate` — это компактная концепция Android-приложения для студентов: задачи, дедлайны, фокус на день и простое отслеживание прогресса.
 
-## Why this idea works
+## Почему эта идея удачная
 
-- Looks modern and useful for a course project
-- No backend is required for the first version
-- Easy to expand with Room, notifications, and authentication later
+- Выглядит современно и хорошо подходит для курсового проекта
+- Для первой версии не нужен сервер
+- В будущем легко расширяется с помощью Room, уведомлений и авторизации
 
-## Tech stack
+## Технологический стек
 
 - Kotlin
 - Jetpack Compose
 - Material 3
 - Android Gradle Plugin 8.13.2
 
-## How to open in IntelliJ IDEA
+## Как открыть проект в IntelliJ IDEA
 
-1. Open IntelliJ IDEA.
-2. Make sure the Android plugin and Android SDK are configured.
-3. Choose **Open** and select this folder:
+1. Откройте IntelliJ IDEA.
+2. Убедитесь, что настроены Android plugin и Android SDK.
+3. Нажмите **Open** и выберите папку:
    `F:\Учеба\4 семестр\Разработка аппаратного обеспечения для мобильных платформ`
-4. Let IntelliJ sync the Gradle project.
+4. Дождитесь синхронизации Gradle-проекта.
 
-## First features already included
+## Что уже реализовано
 
-- Dashboard with daily focus
-- Course progress cards
-- Task list with completion toggles
-- Stats screen
-- Bottom navigation
+- Главный экран с фокусом на день
+- Карточки прогресса по направлениям
+- Список задач с возможностью отмечать выполнение
+- Экран статистики
+- Нижняя навигация
 
-## Good next steps
+## Хорошие следующие шаги
 
-- Save tasks locally with Room
-- Add deadline notifications
-- Add task creation and editing screens
-- Build a calendar or weekly planner screen
+- Сохранять задачи локально с помощью Room
+- Добавить уведомления о дедлайнах
+- Добавить экраны создания и редактирования задач
+- Реализовать календарь или недельный планировщик
